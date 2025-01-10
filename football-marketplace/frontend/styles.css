@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa; /* Light gray background */
+}
+
+h1, h2 {
+    color: #343a40; /* Darker text color */
+}
+
+.navbar {
+    margin-bottom: 20px; /* Space below the navbar */
+}
+
+.card {
+    transition: transform 0.2s; /* Smooth hover effect */
+}
+
+.card:hover {
+    transform: scale(1.05); /* Slight zoom on hover */
+}
+
+footer {
+    background-color: #343a40; /* Dark footer background */
+    color: white; /* White text in footer */
+}
+
+footer a {
+    color: #ffffff; /* White text for links */
+}
+
+.btn {
+    border-radius: 0; /* Square corners for buttons */
+    transition: background-color 0.3s; /* Smooth color transition */
+}
+
+.btn:hover {
+    background-color: #0056b3; /* Change background color on hover */
+    color: white; /* Ensure text remains readable */
+}
+
+section {
+    padding: 20px 0; /* Top and bottom padding for sections */
+}
+
+a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+@media (max-width: 576px) {
+    h1 {
+        font-size: 1.5rem; /* Adjust size for small screens */
+    }
+    h2 {
+        font-size: 1.25rem; /* Adjust size for small screens */
+    }
+}

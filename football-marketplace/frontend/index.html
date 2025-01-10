@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Football Marketplace</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css"> <!-- Link to custom CSS -->
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Football Marketplace</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#players">Players</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container mt-4" id="players">
+        <h2 class="text-center">Players</h2>
+        <p class="text-center">Here you can find the list of players available in the marketplace.</p>
+        <div id="players-list" class="row">
+            <div class="col-md-4">
+                <div class="card mb-4 shadow-sm">
+                    <img src="images/baba.jpg" class="card-img-top" alt="Baba Mohamed">
+                    <div class="card-body">
+                        <h5 class="card-title">Baba Mohamed</h5>
+                        <p class="card-text">Team: Paris Saint-Germain</p>
+                        <p class="card-text">Age: 25</p>
+                        <p class="card-text">Position: Forward</p>
+                        <p class="card-text">Nationality: French</p>
+                        <p class="card-text">Value: €80 million</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4 shadow-sm">
+                    <img src="images/Baihim.jpg" class="card-img-top" alt="Baihim Abderrahman">
+                    <div class="card-body">
+                        <h5 class="card-title">Baihim Abderrahman</h5>
+                        <p class="card-text">Team: KACM</p>
+                        <p class="card-text">Age: 22</p>
+                        <p class="card-text">Position: Midfielder</p>
+                        <p class="card-text">Nationality: Moroccan</p>
+                        <p class="card-text">Value: €30 million</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4 shadow-sm">
+                    <img src="images/neymar.jpg" class="card-img-top" alt="Neymar Jr.">
+                    <div class="card-body">
+                        <h5 class="card-title">Neymar Jr.</h5>
+                        <p class="card-text">Team: Paris Saint-Germain</p>
+                        <p class="card-text">Age: 31</p>
+                        <p class="card-text">Position: Forward</p>
+                        <p class="card-text">Nationality: Brazilian</p>
+                        <p class="card-text">Value: €75 million</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-4" id="about">
+        <h2 class="text-center">About Us</h2>
+        <p class="text-center">We are dedicated to connecting football enthusiasts with the best players in the marketplace. Our platform allows users to buy, sell, and trade players efficiently.</p>
+    </div>
+
+    <div class="container mt-4" id="contact">
+        <h2 class="text-center">Contact Us</h2>
+        <p class="text-center">For inquiries, please email us at contact@footballmarketplace.com.</p>
+        <form>
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea class="form-control" id="message" rows="3" placeholder="Your message" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+
+    <footer class="bg-light text-center py-4">
+        <p>&copy; 2025 Football Marketplace. All Rights Reserved.</p>
+        <a href="#about">About Us</a> | 
+        <a href="#contact">Contact</a>
+    </footer>
+</body>
+</html>
